@@ -6,7 +6,7 @@ import os
 import sqlite3
 
 # Ruta de la carpeta que contiene los archivos PDF
-folder_path = r"C:\Users\fabio\Documents\work usb\ejercicios_AI\facturas"
+folder_path = r"C:\ProjectAdresPythonCUFE\facturas"
 
 # Configuración de la base de datos
 conn = sqlite3.connect('facturas.db')
