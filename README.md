@@ -25,8 +25,8 @@ Este proyecto permite extraer el `CUFE` de los códigos QR en archivos PDF en un
 
 Coloca los archivos PDF que deseas procesar en la carpeta especificada en el script ("C:\ProjectAdresPythonCUFE\facturas") o modifica la variable folder_path en el script para apuntar a la ruta deseada.
 
-Ejecuta el script:
-
+    Ejecuta el script:
+    
     ```bash
     python pdf_qr_extractor.py
 
