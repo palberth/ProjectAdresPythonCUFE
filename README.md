@@ -30,10 +30,10 @@ Coloca los archivos PDF que deseas procesar en la carpeta especificada en el scr
 
 El script recorrerá cada archivo PDF en la carpeta y extraerá la siguiente información:
 
--Nombre del archivo
--Número de páginas
--CUFE
--Peso del archivo (en KB)
+- Nombre del archivo
+- Número de páginas
+- CUFE
+- Peso del archivo (en KB)
 
 Toda esta información se almacenará en una base de datos SQLite llamada facturas.db.
 
@@ -44,9 +44,9 @@ La base de datos SQLite se crea en el mismo directorio y se llama facturas.db.
 
 ## Dependencias
 
-PyMuPDF (fitz): Para leer y procesar archivos PDF.
-pyzbar: Para decodificar los códigos QR de las imágenes.
-Pillow: Para manejar la conversión de PDF a imagen.
+- PyMuPDF (fitz): Para leer y procesar archivos PDF.
+- pyzbar: Para decodificar los códigos QR de las imágenes.
+- Pillow: Para manejar la conversión de PDF a imagen.
 
 ## Contribuir
 
