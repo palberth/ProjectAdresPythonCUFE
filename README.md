@@ -28,4 +28,30 @@ Coloca los archivos PDF que deseas procesar en la carpeta especificada en el scr
     
     python pdf_qr_extractor.py
 
+El script recorrerá cada archivo PDF en la carpeta y extraerá la siguiente información:
 
+-Nombre del archivo
+-Número de páginas
+-CUFE
+-Peso del archivo (en KB)
+
+Toda esta información se almacenará en una base de datos SQLite llamada facturas.db.
+
+## Notas
+
+Asegúrate de que los archivos PDF contienen códigos QR con el parámetro documentkey en la URL, ya que el script busca específicamente ese valor.
+La base de datos SQLite se crea en el mismo directorio y se llama facturas.db.
+
+## Dependencias
+
+PyMuPDF (fitz): Para leer y procesar archivos PDF.
+pyzbar: Para decodificar los códigos QR de las imágenes.
+Pillow: Para manejar la conversión de PDF a imagen.
+
+## Contribuir
+
+Si deseas contribuir al proyecto, realiza un fork, crea una nueva rama con tus cambios y envía un pull request.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
