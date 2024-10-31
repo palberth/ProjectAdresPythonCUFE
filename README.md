@@ -27,7 +27,6 @@ Coloca los archivos PDF que deseas procesar en la carpeta especificada en el scr
 
     Ejecuta el script:
     
-    ```bash
     python pdf_qr_extractor.py
 
 
