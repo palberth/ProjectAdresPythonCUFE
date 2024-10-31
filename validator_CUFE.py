@@ -23,7 +23,7 @@ conn.commit()
 def extract_qr_from_pdf(pdf_path):
     # Obtiene el nombre y peso del archivo
     nombre_archivo = os.path.basename(pdf_path)
-    peso_archivo = os.path.getsize(pdf_path) / 1024  # Peso en KB
+    peso_archivo = round(os.path.getsize(pdf_path) / 1024, 2)  # Peso en KB, redondeado a 2 decimales
 
     # Abre el archivo PDF y cuenta las páginas
     pdf_document = fitz.open(pdf_path)
